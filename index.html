@@ -11,13 +11,35 @@
     <section id="timer">
       <div class="container">
         <h1>Counter</h1>
-        <h2>3</h2>
+        <h2 id="count"></h2>
         <div class="box">
-          <a href="#" class="btn btn-box-1">DECREASE</a>
-          <a href="#" class="btn btn-box-1">RESET</a>
-          <a href="#" class="btn btn-box-3">INCREASE</a>
+          <button
+            id="decrease"
+            type="button"
+            class="btn btn-box-1"
+            onclick="handleDecrease()"
+          >
+            DECREASE
+          </button>
+          <button
+            id="reset"
+            type="button"
+            class="btn btn-box-1"
+            onclick="handleReset()"
+          >
+            RESET
+          </button>
+          <button
+            id="increase"
+            type="button"
+            class="btn btn-box-3"
+            onclick="handleIncrease()"
+          >
+            INCREASE
+          </button>
         </div>
       </div>
     </section>
   </body>
+  <script src="app.js"></script>
 </html>
