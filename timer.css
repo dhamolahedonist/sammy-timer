@@ -24,10 +24,13 @@ h3 {
 a {
   text-decoration: none;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+}
 #timer {
   justify-content: center;
-  position: relative;
-  left: 25%;
 }
 
 h1 {
